@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Profile</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .member-container {
+            border: 2px solid #000;
+            padding: 10px;
+            background-color: aqua;
+            margin-bottom: 15px;
+        }
+
+         body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f8ff;
+    }
+    .buttons {
+      margin: 20px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: coral;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    .member-container {
+      display: none; /* hide by default */
+      border: 2px solid #000;
+      padding: 15px;
+      margin: 20px auto;
+      width: 60%;
+      background-color: aqua;
+      border-radius: 10px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+    </style>
+</head>
+<body>
+    <!-- Front Page -->
+  <h1 style="color: coral;">Our IT Group</h1>
+  <p>Click a button to view member details:</p>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button onclick="showMember('tricia')">Leader: Tricia</button>
+    <button onclick="showMember('carl')">Member 1: Carl Kenneth</button>
+    <button onclick="showMember('eric')">Member 2: Ericxander</button>
+    <button onclick="showMember('louie')">Member 3: Carl Louie</button>
+    <button onclick="showMember('stanley')">Member 4: Stanley</button>
+  </div>
+
+  <!-- Member Profiles -->
+    <div  id="tricia" class="member-container">
+        <header>
+            <img src="tricia.PNG" alt="Your Profile Picture" style="width:200px; height:200px; border-radius:50%;">
+            <h1 style="font-style: oblique; color: coral;">Nuevo, Tricia</h1>
+            <p style="color: coral; font-size: medium; font-style: oblique;">
+                Hey! I am a hardworking Bachelor of Science in Information Technology (BSIT) student who is deeply committed to
+                learning and personal growth. I believe that success comes from consistent effort, so I dedicate myself to studying
+                hard, refining my skills, and applying the knowledge I gain in practical ways. Whether through academic research,
+                system design, or hands-on projects, I strive to turn theory into real-world solutions. My goal is not only to excel
+                in my studies but also to continuously improve myself, becoming a well-rounded IT professional ready to contribute
+                meaningfully to both business and technology.
+            </p>
+            <h2 style="font-style: oblique; color: coral;">Leader</h2>
+        </header>
+
+        <section id="about">
+            <hr>
+            <h3 style="color: crimson; font-style: oblique;">About Me</h3>
+            <h4>Age: 24</h4>
+            <h5 style="font-size: large;">Email: tricianuevo1102@gmail.com</h5>
+            <h6 style="font-size: large;">Contact No.: 09558715468</h6>
+        </section>
+
+        <hr>
+        <section id="Group-intro" style="border: 2px solid #000; padding: 10px; background-color: aqua;">
+            <h3 style="font-size: larger; font-style: oblique;">Group Mission</h3>
+            <p style="font-style: oblique; color: darkorchid;">
+                To cultivate a dedicated and collaborative environment where each member supports one another,
+                grows together, and strengthens both technical and interpersonal skills. We aim to achieve excellence
+                through teamwork, responsibility, and continuous improvement.
+            </p>
+            <h3 style="font-size: larger; font-style: oblique;">Group Vision</h3>
+            <p style="font-style: oblique; color: darkorchid;">
+                To become a united and resilient IT student group known for our strong teamwork, commitment, and drive
+                to succeed — developing into future professionals who lead with integrity, innovation, and passion.
+            </p>
+        </section>
+    </div>
+
+    <!-- Member 1 -->
+    <div id="carl" class="member-container">
+        <header>
+            <img src="marquez.jpg" alt="Your Profile Picture" style="width:200px; height:200px; border-radius:50%;">
+            <h1 style="font-style: oblique; color: rgb(77, 11, 107);">Marquez, Carl Kenneth S.</h1>
+            <p style="color: rgb(175, 12, 180); font-size: medium; font-style: oblique;">
+                I’m a 2nd-year IT student with strong skills in completing tasks on time and managing my schedule effectively.
+                I’m also proficient in Excel and Word editing, which helps me stay organized and efficient in both academic
+                and project work. I’m always eager to learn and improve as I continue developing my skills in the IT field.
+            </p>
+            <h2 style="font-style: oblique; color: rgb(72, 6, 102);">Member 1</h2>
+        </header>
+        <section id="about">
+            <hr>
+            <h3 style="color: rgb(121, 4, 28); font-style: oblique;">About Me</h3>
+            <h4>Age: 19</h4>
+            <h5 style="font-size: large;">Email: carlkennethmarquez@gmail.com</h5>
+            <h6 style="font-size: large;">Contact No.: 09702159433</h6>
+        </section>
+    </div>
+
+    <!-- Member 2 -->
+    <div id="eric" class="member-container">
+        <header>
+            <img src="Mortel.jpg" alt="Your Profile Picture" style="width:200px; height:200px; border-radius:50%;">
+            <h1 style="font-style: oblique; color: rgb(109, 18, 212);">Mortel, Ericxander C.</h1>
+            <p style="color: rgb(51, 12, 160); font-size: medium; font-style: oblique;">
+                I’m a BSIT student passionate about learning new tech skills. I explore programming languages and frameworks
+                to grow my coding knowledge and stay updated in the IT world.
+            </p>
+            <h2 style="font-style: oblique; color: rgb(61, 12, 196);">Member 2</h2>
+        </header>
+        <section id="about">
+            <hr>
+            <h3 style="color: rgb(60, 11, 151); font-style: oblique;">About Me</h3>
+            <h4>Age: 21</h4>
+            <h5 style="font-size: large;">Email: mortelericxander@gmail.com</h5>
+            <h6 style="font-size: large;">Contact No.: 09945441427</h6>
+        </section>
+    </div>
+
+    <!-- Member 3 -->
+    <div id="louie" class="member-container">
+        <header>
+            <img src="Balleras.jpg" alt="Your Profile Picture" style="width:200px; height:200px; border-radius:50%;">
+            <h1 style="font-style: oblique; color: rgb(40, 116, 5);">Balleras, Carl Louie B.</h1>
+            <p style="color: rgb(18, 138, 7); font-size: medium; font-style: oblique;">
+                I am a dedicated Bachelor of Science in Information Technology (BSIT) student who is passionate about expanding
+                my knowledge and developing real-world technical skills. I approach my studies with discipline and curiosity,
+                always eager to understand how technology can solve everyday problems.
+            </p>
+            <h2 style="font-style: oblique; color: rgb(4, 63, 18);">Member 3</h2>
+        </header>
+        <section id="about">
+            <hr>
+            <h3 style="color: rgb(4, 92, 30); font-style: oblique;">About Me</h3>
+            <h4>Age: 20</h4>
+            <h5 style="font-size: large;">Email: carllouieballeras05@gmail.com</h5>
+            <h6 style="font-size: large;">Contact No.: 09813864314</h6>
+        </section>
+    </div>99+++
+
+    <!-- Member 4 -->
+    <div id="stanley" class="member-container">
+        <header>
+            <img src="Balbon.jpg" alt="Your Profile Picture" style="width:200px; height:200px; border-radius:50%;">
+            <h1 style="font-style: oblique; color: rgb(175, 13, 13);">Balbon, Stanley A.</h1>
+            <p style="color: rgb(44, 3, 3); font-size: medium; font-style: oblique;">
+                I am a BSIT student with a strong interest in technology. I enjoy learning about programming, software,
+                and how different systems work. I am focused on expanding my technical knowledge and understanding core IT concepts.
+            </p>
+            <h2 style="font-style: oblique; color: rgb(158, 7, 53);">Member 4</h2>
+        </header>
+        <section id="about">
+            <hr>
+            <h3 style="color: rgb(126, 8, 14); font-style: oblique;">About Me</h3>
+            <h4>Age: 23</h4>
+            <h5 style="font-size: large;">Email: balbonstanley@gmail.com</h5>
+            <h6 style="font-size: large;">Contact No.: 09814414030</h6>
+        </section>
+    </div>
+      
+     <!-- JavaScript -->
+  <script>
+    function showMember(memberId) {
+      // Hide all members
+      const members = document.querySelectorAll('.member-container');
+      members.forEach(m => m.style.display = 'none');
+
+      // Show selected member
+      document.getElementById(memberId).style.display = 'block';
+    }
+  </script>
+
+   
+        <p><a href="https://github.com/yourusername">GitHub Profile</a></
